@@ -29,40 +29,39 @@
         </div>
         <div class="large-4 columns">
           <label>Nombre
-            <input type="text" placeholder="" />
+            <input type="text" placeholder="" name="nombre"/>
           </label>
         </div>
         <div class="large-4 columns">
           <label>Apellido
-            <input type="text" placeholder="" />
+            <input type="text" placeholder="" name="apellido"/>
           </label>
         </div>
         <div class="large-4 columns">
           <label>Correo
-            <input type="text" placeholder="ejemplo@correo.com" name="_replyto"/>
+            <input type="text" placeholder="nombre@ejemplo.com" name="_replyto"/>
           </label>
         </div>        
       </div>
+      <input type="hidden" name="_next" value="/" />
+      <input type="hidden" name="_subject" value="Voltajes Solares" />
+      <input type="text" name="_gotcha" style="display:none" />
       <div class="row">
         <div class="large-12 columns">
           <label>Producto de Interés
-            <select>
-              <option value="calentador">Calentador</option>
-              <option value="iluminacion">Iluminación</option>
-              <option value="kit">Kit Fotovoltáico</option>
-            </select>
+            <input type="text" name="producto" placeholder="Producto o Servicio"/>
           </label>
         </div>
       </div>
       <div class="row">
         <div class="large-12 columns">
           <label>Comentarios
-            <textarea placeholder=""></textarea>
+            <textarea name="comentarios" placeholder=""></textarea>
           </label>
         </div>
       </div>
       <div>
-        <a href="#" class="right button">Enviar</a>
+        <input class="right button" type="submit" value="Enviar">
       </div>
     </form>
     <a class="close-reveal-modal" aria-label="Close">&#215;</a>
