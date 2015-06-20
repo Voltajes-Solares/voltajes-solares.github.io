@@ -44,7 +44,7 @@ span.vs {
 }
 /* line 39, ../scss/app.scss */
 .accordion p {
-  color: black;
+  color: #222222;
 }
 
 /* line 46, ../scss/app.scss */
@@ -63,7 +63,13 @@ footer h1, footer h2, footer h3, footer h4, footer h5, footer h6, .top-banner h1
 }
 /* line 55, ../scss/app.scss */
 .top-banner p {
+  float: right;
   padding: 0.3rem;
+  margin: 0;
+}
+/* line 61, ../scss/app.scss */
+.top-banner hr {
+  padding-bottom: 0.3rem;
   margin: 0;
 }
 
