@@ -1,0 +1,153 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="es">
+	<head>
+	  <meta charset="utf-8" />
+	  <meta name="author" content="Sebastián López Sánchez"/>
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	  <link rel="shortcut icon" href="/assets/img/favicon.ico">
+	  <title>Voltajes Solares</title>
+	  <link rel="stylesheet" href="/stylesheets/app.css" />
+	  <link rel="stylesheet" href="/stylesheets/genericons/genericons.css" />
+	  <script src="/bower_components/modernizr/modernizr.js"></script>
+	</head>
+	<body>
+
+	  <div class="top-banner">
+			<div class="row">
+				<div class="12-small columns">
+					<p>
+						<strong>Ventas:</strong> 55 5555 5555
+					</p>
+				</div>
+			</div>
+		</div>
+
+	  <!-- Vide Banner -->
+	  <div id="banner" style="height: 400px;" data-vide-bg="assets/banner.mp4">
+	    <h1 class="show-for-medium-up medium-up-banner"><br>Voltajes Solares</h1>
+	    <h1 class="show-for-small-only small-only-banner"><br><br><br>Voltajes Solares</h1>
+	  </div>
+
+
+	  <!-- Contact form Reveal -->
+	  <div id="contacto" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+	    <form action="//formspree.io/sebastian0228@icloud.com" method="POST">
+	      <div class="row">
+	        <div class="large-12 columns">
+	          <h3>Contacto</h3>
+	          <p>Puedes contactarnos a través de un <a href="http://facebook.com/voltajes-solares">Mensaje en Facebook</a> o puedes llenar el siguiente formulario para que nos pongamos en contacto via correo electrónico.</p>
+	          <hr>
+	        </div>
+	        <div class="large-4 columns">
+	          <label>Nombre
+	            <input type="text" placeholder="" name="nombre"/>
+	          </label>
+	        </div>
+	        <div class="large-4 columns">
+	          <label>Apellido
+	            <input type="text" placeholder="" name="apellido"/>
+	          </label>
+	        </div>
+	        <div class="large-4 columns">
+	          <label>Correo
+	            <input type="text" placeholder="nombre@ejemplo.com" name="_replyto"/>
+	          </label>
+	        </div>        
+	      </div>
+	      <input type="hidden" name="_next" value="/" />
+	      <input type="hidden" name="_subject" value="Voltajes Solares" />
+	      <input type="text" name="_gotcha" style="display:none" />
+	      <div class="row">
+	        <div class="large-12 columns">
+	          <label>Producto de Interés
+	            <input type="text" name="producto" placeholder="Producto o Servicio"/>
+	          </label>
+	        </div>
+	      </div>
+	      <div class="row">
+	        <div class="large-12 columns">
+	          <label>Comentarios
+	            <textarea name="comentarios" placeholder=""></textarea>
+	          </label>
+	        </div>
+	      </div>
+	      <div>
+	        <input class="right button" type="submit" value="Enviar">
+	      </div>
+	    </form>
+	    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+	  </div>
+
+	  <!-- Medium Up Magellan -->
+	  <div class="show-for-medium-up" data-magellan-expedition="fixed">
+	    <div class="row">
+	      <div>
+	        <dl class="sub-nav">
+	          <dd><a href="/#inicio">Nosotros</a></dd>
+	          <dd><a href="/#productos">Productos</a></dd>
+	          <dd class="right active"><a data-reveal-id="contacto" href="#"><strong>Contacto y Cotizaciones</strong></a></dd>
+	        </dl>
+	      </div>
+	    </div>
+	  </div>
+
+	  <!-- Small Only Top Bar -->
+	  <nav class="show-for-small-only top-bar" data-topbar role="navigation">
+	    <ul class="title-area">
+	      <li class="name">
+	        <h1><a data-reveal-id="contacto" href="#">
+	          Contacto &nbsp<img style="width: 12px; height: 12px;" src="/assets/svg/external.svg">
+	        </a></h1>
+	      </li>
+	      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+	    </ul>
+
+	    <section class="top-bar-section">
+	      <ul class="left">
+	        <li><a style="font-weight: bold;" data-reveal-id="contacto" href="#">Contacto y Cotizaciones</a></li>
+	      </ul>
+	      <ul class="right">
+	        <li><a href="/#inicio">Nosotros</a></li>
+	        <li><a href="/#productos">Productos</a></li>
+	      </ul>
+	    </section>
+	  </nav>
+
+	  <footer>
+	  	
+	  	<div class="row">
+
+	  		<div class="medium-3 columns">
+
+	  			<p><h4>Ventas:</h4></p>
+
+	  			<p>
+	  				<strong>Teléfono:</strong><br> 55 5555 5555 <br>
+	  				<strong>Correo:</strong><br> contacto@visolar.com
+	  			</p>
+
+	  		</div>
+
+	  		<div class="medium-3 columns">
+		  		<p>
+		  			<form action="//formspree.io/sebastian0228@icloud.com" method="POST">
+			  		  <input type="email" placeholder="nombre@ejemplo.com" name="_replyto"/>
+			  		  <textarea name="comentarios" placeholder="Comentarios"></textarea>
+		          <input class="right button info tiny" type="submit" value="Enviar">
+			    	</form>
+			    </p>
+			  </div>
+
+	  	</div>
+
+	  </footer>
+
+	  
+
+	  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	  <script src="/bower_components/foundation/js/foundation.min.js"></script>
+	  <script src="/bower_components/vide/jquery.vide.min.js"></script>
+	  <script src="/js/app.js"></script>
+
+	</body>
+</html>

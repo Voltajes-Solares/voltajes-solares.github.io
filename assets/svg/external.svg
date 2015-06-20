@@ -36,14 +36,14 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1366"
-     inkscape:window-height="741"
+     inkscape:window-height="716"
      id="namedview6"
      showgrid="false"
      inkscape:zoom="2.36"
-     inkscape:cx="50"
-     inkscape:cy="50"
+     inkscape:cx="-20.974576"
+     inkscape:cy="16.101695"
      inkscape:window-x="0"
-     inkscape:window-y="720"
+     inkscape:window-y="25"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2" />
   <path
@@ -52,5 +52,5 @@
      stroke-width="10"
      d="m43,35H5v60h60V57M45,5v10l10,10-30,30 20,20 30-30 10,10h10V5z"
      id="path4"
-     style="fill:#ffb51f;fill-opacity:1" />
+     style="fill:#5da423;fill-opacity:1" />
 </svg>

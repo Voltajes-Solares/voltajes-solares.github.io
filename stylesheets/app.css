@@ -18,25 +18,53 @@ body {
   font-size: 50px;
 }
 
-/* line 18, ../scss/app.scss */
-.orange {
-  background: #ffb51f;
+/* line 16, ../scss/app.scss */
+.green {
+  background: #5da423;
 }
-/* line 20, ../scss/app.scss */
-.orange h1, .orange h2, .orange h3, .orange h4, .orange h5, .orange h6 {
+/* line 18, ../scss/app.scss */
+.green p {
+  color: #FFFFFF;
+}
+/* line 19, ../scss/app.scss */
+.green h1, .green h2, .green h3, .green h4, .green h5, .green h6 {
   font-weight: bold;
   color: #FFFFFF;
 }
 
-/* line 29, ../scss/app.scss */
+/* line 30, ../scss/app.scss */
 span.vs {
   color: #ffb51f;
   font-weight: bold;
 }
 
-/* line 34, ../scss/app.scss */
+/* line 36, ../scss/app.scss */
 .accordion .genericon {
   float: right;
+}
+/* line 39, ../scss/app.scss */
+.accordion p {
+  color: black;
+}
+
+/* line 46, ../scss/app.scss */
+footer, .top-banner {
+  background-color: #5da423;
+  color: #FFFFFF;
+}
+/* line 49, ../scss/app.scss */
+footer h1, footer h2, footer h3, footer h4, footer h5, footer h6, .top-banner h1, .top-banner h2, .top-banner h3, .top-banner h4, .top-banner h5, .top-banner h6 {
+  color: #FFFFFF;
+}
+
+/* line 54, ../scss/app.scss */
+.top-banner {
+  margin-bottom: -3px;
+}
+/* line 55, ../scss/app.scss */
+.top-banner p {
+  padding: 0.3rem;
+  margin: 0;
 }
 
 /* line 364, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -3537,7 +3565,7 @@ meta.foundation-mq-topbar {
 /* line 119, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .contain-to-grid {
   width: 100%;
-  background: #ffb51f;
+  background: #5da423;
 }
 /* line 123, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .contain-to-grid .top-bar {
@@ -3573,7 +3601,7 @@ meta.foundation-mq-topbar {
 
 /* line 156, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar {
-  background: #ffb51f;
+  background: #5da423;
   height: 2.8125rem;
   line-height: 2.8125rem;
   margin-bottom: 0;
@@ -3696,7 +3724,7 @@ meta.foundation-mq-topbar {
 }
 /* line 272, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .title-area {
-  background: #ffb51f;
+  background: #5da423;
 }
 /* line 277, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .toggle-topbar a {
@@ -3737,7 +3765,7 @@ meta.foundation-mq-topbar {
 /* line 323, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .divider,
 .top-bar-section [role="separator"] {
-  border-top: solid 1px #8f6000;
+  border-top: solid 1px #2e5212;
   clear: both;
   height: 1px;
   width: 100%;
@@ -4060,7 +4088,7 @@ meta.foundation-mq-topbar {
 @media only screen and (min-width: 40.0625em) {
   /* line 492, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar {
-    background: #ffb51f;
+    background: #5da423;
     overflow: visible;
   }
   /* line 172, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -4101,7 +4129,7 @@ meta.foundation-mq-topbar {
   }
   /* line 517, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar.expanded {
-    background: #ffb51f;
+    background: #5da423;
   }
 
   /* line 522, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -4138,7 +4166,7 @@ meta.foundation-mq-topbar {
   }
   /* line 555, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button) {
-    background: #ffb51f;
+    background: #5da423;
     line-height: 2.8125rem;
     padding: 0 0.9375rem;
   }
@@ -4254,7 +4282,7 @@ meta.foundation-mq-topbar {
   /* line 668, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section > ul > .divider,
   .top-bar-section > ul > [role="separator"] {
-    border-right: solid 1px #ffbf3c;
+    border-right: solid 1px #70c52a;
     border-bottom: none;
     border-top: none;
     clear: none;
@@ -4263,7 +4291,7 @@ meta.foundation-mq-topbar {
   }
   /* line 678, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-form {
-    background: #ffb51f;
+    background: #5da423;
     height: 2.8125rem;
     padding: 0 0.9375rem;
   }
