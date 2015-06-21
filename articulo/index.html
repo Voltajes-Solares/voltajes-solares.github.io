@@ -1,8 +1,8 @@
 <!DOCTYPE <!DOCTYPE html>
 <html lang="es">
 	<head>
-		<meta charset="utf-8" />
-		<meta name="author" content="Sebastián López Sánchez"/>
+	  <meta charset="utf-8" />
+	  <meta name="author" content="Sebastián López Sánchez"/>
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	  <link rel="shortcut icon" href="/assets/img/favicon.ico">
 	  <title>Voltajes Solares</title>
@@ -35,12 +35,12 @@
 	      <div class="row">
 	        <div class="large-12 columns">
 	          <h3>Contacto</h3>
-	          <p>Puedes contactarnos a través de un <a href="http://facebook.com/voltajes-solares">Mensaje en Facebook</a> o puedes llenar el siguiente formulario para que nos pongamos en contacto via correo electrónico.</p>
+	          <p>Puedes contactarnos a través de un <a target="_blank" href="http://facebook.com/voltajes-solares">Mensaje en Facebook</a> o puedes llenar el siguiente formulario para que nos pongamos en contacto via correo electrónico.</p>
 	          <hr>
 	        </div>
 	        <div class="large-4 columns">
 	          <label>Nombre
-	            <input type="text" placeholder="" name="nombre"/>
+	            <input type="text" required placeholder="" name="nombre"/>
 	          </label>
 	        </div>
 	        <div class="large-4 columns">
@@ -50,7 +50,7 @@
 	        </div>
 	        <div class="large-4 columns">
 	          <label>Correo
-	            <input type="email" placeholder="nombre@ejemplo.com" name="_replyto"/>
+	            <input type="email" required placeholder="nombre@ejemplo.com" name="_replyto"/>
 	          </label>
 	        </div>        
 	      </div>
@@ -60,14 +60,14 @@
 	      <div class="row">
 	        <div class="large-12 columns">
 	          <label>Producto de Interés o Asunto
-	            <input type="text" name="Asunto" placeholder="Producto o Servicio"/>
+	            <input type="text" name="Asunto" required minlength="3" maxlength="30" placeholder="Producto o Servicio"/>
 	          </label>
 	        </div>
 	      </div>
 	      <div class="row">
 	        <div class="large-12 columns">
 	          <label>Comentarios
-	            <textarea name="comentarios" placeholder=""></textarea>
+	            <textarea name="comentarios" required minlength="10"  maxlength="500" placeholder=""></textarea>
 	          </label>
 	        </div>
 	      </div>
@@ -153,9 +153,9 @@
 	  		<div class="medium-3 columns">
 		  		<p>
 		  			<form action="//formspree.io/sebastian0228@icloud.com" method="POST">
-			  		  <input type="email" placeholder="nombre@ejemplo.com" name="_replyto"/>
-			  		  <textarea name="comentarios" placeholder="Comentarios"></textarea>
-		          <input class="right button secondary tiny" type="submit" value="Enviar">
+			  		  <input required type="email" placeholder="nombre@ejemplo.com" name="_replyto"/>
+			  		  <textarea maxlength="140" minlength="20" name="comentarios" placeholder="Comentarios"></textarea>
+		          	  <input class="right button secondary tiny" type="submit" value="Enviar">
 			    	</form>
 			    </p>
 			  </div>

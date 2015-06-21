@@ -22,7 +22,7 @@
     </div>
   </div>
 
-  <!-- Vide Banner -->
+  <!-- Image Banner -->
   <div id="banner" style="height: 400px; background-image: url(/assets/img/banner.jpg)">
     <h1 class="show-for-medium-up medium-up-banner"><br>Visolar</h1>
     <h1 class="show-for-small-only small-only-banner"><br><br><br>Visolar</h1>
@@ -34,12 +34,12 @@
       <div class="row">
         <div class="large-12 columns">
           <h3>Contacto</h3>
-          <p>Puedes contactarnos a través de un <a href="http://facebook.com/voltajes-solares">Mensaje en Facebook</a> o puedes llenar el siguiente formulario para que nos pongamos en contacto via correo electrónico.</p>
+          <p>Puedes contactarnos a través de un <a target="_blank" href="http://facebook.com/voltajes-solares">Mensaje en Facebook</a> o puedes llenar el siguiente formulario para que nos pongamos en contacto via correo electrónico.</p>
           <hr>
         </div>
         <div class="large-4 columns">
           <label>Nombre
-            <input type="text" placeholder="" name="nombre"/>
+            <input type="text" required placeholder="" name="nombre"/>
           </label>
         </div>
         <div class="large-4 columns">
@@ -49,7 +49,7 @@
         </div>
         <div class="large-4 columns">
           <label>Correo
-            <input type="text" placeholder="nombre@ejemplo.com" name="_replyto"/>
+            <input type="email" required placeholder="nombre@ejemplo.com" name="_replyto"/>
           </label>
         </div>        
       </div>
@@ -58,15 +58,15 @@
       <input type="text" name="_gotcha" style="display:none" />
       <div class="row">
         <div class="large-12 columns">
-          <label>Producto de Interés
-            <input type="text" name="producto" placeholder="Producto o Servicio"/>
+          <label>Producto de Interés o Asunto
+            <input type="text" name="Asunto" required minlength="3" maxlength="30" placeholder="Producto o Servicio"/>
           </label>
         </div>
       </div>
       <div class="row">
         <div class="large-12 columns">
           <label>Comentarios
-            <textarea name="comentarios" placeholder=""></textarea>
+            <textarea name="comentarios" required minlength="10"  maxlength="500" placeholder=""></textarea>
           </label>
         </div>
       </div>
@@ -145,7 +145,7 @@
     </div>
   
     <div class="small-12 medium-4 columns">
-      <img src="assets/img/solar-icon.png" alt="Ícono Solar">
+      <img class="block-image" src="assets/img/green-energy.jpg" alt="Ícono Solar">
     </div>
 
   </div>
@@ -166,16 +166,25 @@
           <div id="panel1a" class="content active">
             <div class="small-11 small-centered columns">
 
-              <div class="small-12 large-12 large-centered columns">
-                <img src="assets/img/kit.jpg"/>
-                <br>  
-              </div>
+              <h3>Kit Fotovoltáico: Panel y Microinversor</h3>
 
-              <br>
-              <hr> 
-              <a class="ficha" target="_blank" href="/assets/pdf/paneles.pdf">&nbsp Ficha Técnica Panel</a>
-              &nbsp | &nbsp
-              <a class="ficha" target="_blank" href="/assets/pdf/microinversor.pdf">Ficha Técnica Microinversor</a>
+              <ul>
+                <li>Montaje Rápido y Económico</li>
+                <li>Se entrega listo para conexión</li>
+                <li>Conectores Certificados IEC (UL)</li>
+                <li>3 Diodos Bypass Integrados</li>
+                <li>No incluye instalación<br>
+                    <b>Incluye</b></li>
+                <li>Panel Fotovoltaico 250 W Policristalino</li>
+                <li>1 Microinversor M1-01-250 (sin submedidor, sin comunicación PLC)</li>
+                <li>10 m de cable multiconductor 3x12</li>
+                <li>1 Base de madera sintética IUSA y tornillería de acero galvanizado</li>
+              </ul>
+
+                <hr>
+                <img class="block-image" src="assets/img/kit.jpg"/>
+                <hr>
+                <a class="ficha" target="_blank" href="/assets/pdf/general-paneles.pdf">Folleto PDF</a>
 
             </div>
           </div>
@@ -268,8 +277,8 @@
         <div class="medium-3 columns">
           <p>
             <form action="//formspree.io/sebastian0228@icloud.com" method="POST">
-              <input type="email" placeholder="nombre@ejemplo.com" name="_replyto"/>
-              <textarea name="comentarios" placeholder="Comentarios"></textarea>
+              <input required type="email" placeholder="nombre@ejemplo.com" name="_replyto"/>
+              <textarea maxlength="140" minlength="20" name="comentarios" placeholder="Comentarios"></textarea>
               <input class="right button secondary tiny" type="submit" value="Enviar">
             </form>
           </p>
@@ -282,7 +291,6 @@
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="/bower_components/foundation/js/foundation.min.js"></script>
-  <script src="/bower_components/vide/jquery.vide.min.js"></script>
   <script src="/js/app.js"></script>
 
 </body>

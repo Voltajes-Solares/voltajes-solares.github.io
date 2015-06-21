@@ -3,71 +3,77 @@ body {
   color: #222222;
 }
 
-/* line 7, ../scss/app.scss */
+/* line 6, ../scss/app.scss */
+img.block-image {
+  display: block;
+  margin: auto;
+}
+
+/* line 12, ../scss/app.scss */
 #banner h1 {
   color: #FFFFFF;
   font-weight: bolder;
   text-align: center;
 }
-/* line 12, ../scss/app.scss */
+/* line 17, ../scss/app.scss */
 #banner .medium-up-banner {
   font-size: 100px;
 }
-/* line 13, ../scss/app.scss */
+/* line 18, ../scss/app.scss */
 #banner .small-only-banner {
   font-size: 50px;
 }
 
-/* line 16, ../scss/app.scss */
+/* line 21, ../scss/app.scss */
 .green {
   background: #5da423;
 }
-/* line 18, ../scss/app.scss */
+/* line 23, ../scss/app.scss */
 .green p {
   color: #FFFFFF;
 }
-/* line 19, ../scss/app.scss */
+/* line 24, ../scss/app.scss */
 .green h1, .green h2, .green h3, .green h4, .green h5, .green h6 {
   font-weight: bold;
   color: #FFFFFF;
 }
 
-/* line 30, ../scss/app.scss */
+/* line 35, ../scss/app.scss */
 span.vs {
-  color: #ffb51f;
+  color: #5da423;
   font-weight: bold;
 }
 
-/* line 36, ../scss/app.scss */
+/* line 41, ../scss/app.scss */
 .accordion .genericon {
   float: right;
 }
-/* line 39, ../scss/app.scss */
-.accordion p {
+/* line 44, ../scss/app.scss */
+.accordion p, .accordion h1, .accordion h2, .accordion h3, .accordion h4, .accordion h5, .accordion h6 {
   color: #222222;
 }
 
-/* line 46, ../scss/app.scss */
+/* line 51, ../scss/app.scss */
 footer, .top-banner {
   background-color: #5da423;
   color: #FFFFFF;
 }
-/* line 49, ../scss/app.scss */
+/* line 54, ../scss/app.scss */
 footer h1, footer h2, footer h3, footer h4, footer h5, footer h6, .top-banner h1, .top-banner h2, .top-banner h3, .top-banner h4, .top-banner h5, .top-banner h6 {
   color: #FFFFFF;
 }
 
-/* line 54, ../scss/app.scss */
+/* line 59, ../scss/app.scss */
 .top-banner {
-  margin-bottom: -3px;
+  margin-bottom: -4px;
 }
-/* line 55, ../scss/app.scss */
+/* line 60, ../scss/app.scss */
 .top-banner p {
   float: right;
   padding: 0.3rem;
   margin: 0;
 }
-/* line 61, ../scss/app.scss */
+/* line 66, ../scss/app.scss */
 .top-banner hr {
   padding-bottom: 0.3rem;
   margin: 0;
