@@ -12,14 +12,19 @@
 	</head>
 	<body>
 
-		<div class="top-banner">
-			<div class="row">
-				<div class="12-small columns">
-					<p>
-						<strong>Ventas:</strong> (55) 2728 2205 <hr>
-					</p>
-				</div>
-			</div>
+		<div class="show-for-medium-up fixed">
+		  <ul class="button-group even-3">
+		  	<li><a class="button" href="/">Inicio</a></li>
+		  	<li><a class="button"	href="#">(55) 2728 2205</a></li>
+		  	<li><a class="button" href="#" data-reveal-id="contacto">Contacto y Cotizaciones</a></li>
+		  </ul>
+		</div>
+
+		<div class="show-for-small-only fixed">
+		  <ul class="button-group even-2">
+		  	<li><a class="button" href="/">Inicio</a></li>
+		  	<li><a class="button" href="#" data-reveal-id="contacto">Contacto</a></li>
+		  </ul>
 		</div>
 
 	  <!-- Vide Banner -->
@@ -30,88 +35,59 @@
 
 
 	  <!-- Contact form Reveal -->
-	  <div id="contacto" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-	    <form action="//formspree.io/sebastian0228@icloud.com" method="POST">
-	      <div class="row">
-	        <div class="large-12 columns">
-	          <h3>Contacto</h3>
-	          <p>Puedes contactarnos a través de un <a target="_blank" href="http://facebook.com/voltajes-solares">Mensaje en Facebook</a> o puedes llenar el siguiente formulario para que nos pongamos en contacto via correo electrónico.</p>
-	          <hr>
-	        </div>
-	        <div class="large-4 columns">
-	          <label>Nombre
-	            <input type="text" required placeholder="" name="nombre"/>
-	          </label>
-	        </div>
-	        <div class="large-4 columns">
-	          <label>Apellido
-	            <input type="text" placeholder="" name="apellido"/>
-	          </label>
-	        </div>
-	        <div class="large-4 columns">
-	          <label>Correo
-	            <input type="email" required placeholder="nombre@ejemplo.com" name="_replyto"/>
-	          </label>
-	        </div>        
-	      </div>
-	      <input type="hidden" name="_next" value="/" />
-	      <input type="hidden" name="_subject" value="Voltajes Solares" />
-	      <input type="text" name="_gotcha" style="display:none" />
-	      <div class="row">
-	        <div class="large-12 columns">
-	          <label>Producto de Interés o Asunto
-	            <input type="text" name="Asunto" required minlength="3" maxlength="30" placeholder="Producto o Servicio"/>
-	          </label>
-	        </div>
-	      </div>
-	      <div class="row">
-	        <div class="large-12 columns">
-	          <label>Comentarios
-	            <textarea name="comentarios" required minlength="10"  maxlength="500" placeholder=""></textarea>
-	          </label>
-	        </div>
-	      </div>
-	      <div>
-	        <input class="right button" type="submit" value="Enviar">
-	      </div>
-	    </form>
-	    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-	  </div>
-
-	  <!-- Medium Up Magellan -->
-	  <div class="show-for-medium-up" data-magellan-expedition="fixed">
-	    <div class="row">
-	      <div>
-	        <dl class="sub-nav">
-	          <dd><a href="/#inicio">Nosotros</a></dd>
-	          <dd><a href="/#productos">Productos</a></dd>
-	          <dd class="right active"><a data-reveal-id="contacto" href="#"><strong>Contacto y Cotizaciones</strong></a></dd>
-	        </dl>
-	      </div>
-	    </div>
-	  </div>
-
-	  <!-- Small Only Top Bar -->
-	  <nav class="show-for-small-only top-bar" data-topbar role="navigation">
-	    <ul class="title-area">
-	      <li class="name">
-	        <h1><a data-reveal-id="contacto" href="#">
-	          Contacto &nbsp<img style="width: 12px; height: 12px;" src="/assets/svg/external.svg">
-	        </a></h1>
-	      </li>
-	      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-	    </ul>
-
-	    <section class="top-bar-section">
-	      <ul class="left">
-	        <li><a style="font-weight: bold;" data-reveal-id="contacto" href="#">Contacto y Cotizaciones</a></li>
-	      </ul>
-	      <ul class="right">
-	        <li><a href="/#inicio">Nosotros</a></li>
-	        <li><a href="/#productos">Productos</a></li>
-	      </ul>
-	    </section>
-	  </nav>
+	    <!-- Contact form Reveal -->
+  <div id="contacto" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+    <form action="//formspree.io/sebastian0228@icloud.com" method="POST">
+      <div class="row">
+        <div class="large-12 columns">
+          <h3>Contacto</h3>
+          <p>Puedes contactarnos a través de un <a target="_blank" href="http://facebook.com/voltajes-solares">Mensaje en Facebook</a> o puedes llenar el siguiente formulario para que nos pongamos en contacto via correo electrónico o por teléfono.</p>
+          <hr>
+        </div>
+        <div class="large-4 columns">
+          <label>Nombre
+            <input type="text" required placeholder="" name="nombre"/>
+          </label>
+        </div>
+        <div class="large-4 columns">
+          <label>Apellido
+            <input type="text" placeholder="" name="apellido"/>
+          </label>
+        </div>
+        <div class="large-4 columns">
+          <label>Correo
+            <input type="email" required placeholder="nombre@ejemplo.com" name="_replyto"/>
+          </label>
+        </div>
+      </div>
+      <input type="hidden" name="_next" value="/" />
+      <input type="hidden" name="_subject" value="Voltajes Solares" />
+      <input type="text" name="_gotcha" style="display:none" />
+      <div class="row">
+        <div class="large-4 columns">
+          <label>Teléfono
+            <input type="text" placeholder="" name="teléfono"/>
+          </label>
+        </div>       
+        <div class="large-8 columns">
+          <label>Producto de Interés o Asunto
+            <input type="text" name="Asunto" required minlength="3" maxlength="30" placeholder="Producto o Servicio"/>
+          </label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 columns">
+          <label>Comentarios
+            <textarea name="comentarios" required minlength="10"  maxlength="500" placeholder=""></textarea>
+          </label>
+        </div>
+      </div>
+      <div>
+        <input class="right button" type="submit" value="Enviar">
+      </div>
+    </form>
+    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+  </div>
 
 	  <article class="row">
 	  	
@@ -135,32 +111,43 @@
 
 	  </article>
 
-	  <footer>
-	  	
-	  	<div class="row">
+		<footer>
 
-	  		<div class="medium-3 columns">
+	  	<br>
 
-	  			<p><h4>Ventas:</h4></p>
+	    <div class="row">
 
-	  			<p>
-	  				<strong>Teléfono:</strong><br> (55) 2728 2205 <br>
-	  				<strong>Correo:</strong><br> contacto@visolar.com
-	  			</p>
+	      <div class="small-12 medium-4 columns">
 
-	  		</div>
+	        <h4>Ventas:</h4>
 
-	  		<div class="medium-3 columns">
-		  		<p>
-		  			<form action="//formspree.io/sebastian0228@icloud.com" method="POST">
-			  		  <input required type="email" placeholder="nombre@ejemplo.com" name="_replyto"/>
-			  		  <textarea maxlength="140" minlength="20" name="comentarios" placeholder="Comentarios"></textarea>
-		          	  <input class="right button secondary tiny" type="submit" value="Enviar">
-			    	</form>
-			    </p>
-			  </div>
+	        <p>
+	          <strong>Teléfono:</strong><br>
+	                  (55) 2728 2205<br>
+	          <strong>Correo:</strong><br>
+	                  contacto@visolar.com
+	        </p>
 
-	  	</div>
+	      </div>
+
+	      <div class="small-12 medium-4 columns">
+	        <h4>Ubicación:</h4>
+	        <p>
+	          Tlalnepantla, Estado de México.
+	        </p>
+	      </div>
+
+	      <div class="small-12 medium-4 columns">
+	        <p>
+	          <form action="//formspree.io/sebastian0228@icloud.com" method="POST">
+	            <input required type="email" placeholder="nombre@ejemplo.com" name="_replyto"/>
+	            <textarea maxlength="140" minlength="20" name="comentarios" placeholder="Comentarios"></textarea>
+	            <input class="right button secondary tiny" type="submit" value="Enviar">
+	          </form>
+	        </p>
+	      </div>
+
+	    </div>
 
 	  </footer>
 

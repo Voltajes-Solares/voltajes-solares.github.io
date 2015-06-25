@@ -7,19 +7,26 @@
   <link rel="shortcut icon" href="/assets/img/favicon.ico">
   <title>Voltajes Solares</title>
   <link rel="stylesheet" href="/stylesheets/app.css" />
-  <link rel="stylesheet" href="/stylesheets/genericons/genericons.css" />
+  <link rel="stylesheet" href="/stylesheets/genericons/genericons.css"   />
   <script src="/bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
 
-  <div class="top-banner">
-    <div class="row">
-      <div class="12-small columns">
-        <p>
-          <strong>Ventas:</strong> (55) 2728 2205<hr>
-        </p>
-      </div>
-    </div>
+  <div class="fixed">
+    <ul class="show-for-medium-up button-group even-2">
+      <li><a style="opacity: 0.95; font-weight: bold;" class="button" href="#">
+        (55) 2728 2205
+      </a></li>
+      <li><a style="opacity: 0.95; font-weight: bold;" class="button" href="#" data-reveal-id="contacto">
+        Contacto
+      </a></li>
+    </ul>
+  </div>
+
+  <div class="show-for-small-only fixed">
+    <a style="opacity: 0.95; font-weight: bold;" class="expand button" href="#" data-reveal-id="contacto">
+      Contacto
+    </a>
   </div>
 
   <!-- Image Banner -->
@@ -27,6 +34,7 @@
     <h1 class="show-for-medium-up medium-up-banner"><br>Visolar</h1>
     <h1 class="show-for-small-only small-only-banner"><br><br><br>Visolar</h1>
   </div>
+  <br>
 
   <!-- Contact form Reveal -->
   <div id="contacto" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
@@ -34,7 +42,7 @@
       <div class="row">
         <div class="large-12 columns">
           <h3>Contacto</h3>
-          <p>Puedes contactarnos a través de un <a target="_blank" href="http://facebook.com/voltajes-solares">Mensaje en Facebook</a> o puedes llenar el siguiente formulario para que nos pongamos en contacto via correo electrónico.</p>
+          <p>Puedes contactarnos a través de un <a target="_blank" href="http://facebook.com/voltajes-solares">Mensaje en Facebook</a> o puedes llenar el siguiente formulario para que nos pongamos en contacto via correo electrónico o por teléfono.</p>
           <hr>
         </div>
         <div class="large-4 columns">
@@ -51,13 +59,18 @@
           <label>Correo
             <input type="email" required placeholder="nombre@ejemplo.com" name="_replyto"/>
           </label>
-        </div>        
+        </div>
       </div>
       <input type="hidden" name="_next" value="/" />
       <input type="hidden" name="_subject" value="Voltajes Solares" />
       <input type="text" name="_gotcha" style="display:none" />
       <div class="row">
-        <div class="large-12 columns">
+        <div class="large-4 columns">
+          <label>Teléfono
+            <input type="text" placeholder="" name="teléfono"/>
+          </label>
+        </div>       
+        <div class="large-8 columns">
           <label>Producto de Interés o Asunto
             <input type="text" name="Asunto" required minlength="3" maxlength="30" placeholder="Producto o Servicio"/>
           </label>
@@ -77,90 +90,31 @@
     <a class="close-reveal-modal" aria-label="Close">&#215;</a>
   </div>
 
-  <!-- Medium Up Magellan -->
-  <div class="show-for-medium-up" data-magellan-expedition="fixed">
-    <div class="row">
-      <div>
-        <dl class="sub-nav">
-          <dd data-magellan-arrival="inicio"><a href="#inicio">Nosotros</a></dd>
-          <dd data-magellan-arrival="productos"><a href="#productos">Productos</a></dd>
-          <dd class="right active"><a data-reveal-id="contacto" href="#"><strong>Contacto y Cotizaciones</strong></a></dd>
-        </dl>
-      </div>
-    </div>
-  </div>
-
-  <!-- Small Only Top Bar -->
-  <nav class="show-for-small-only top-bar" data-topbar role="navigation">
-    <ul class="title-area">
-      <li class="name">
-        <h1><a data-reveal-id="contacto" href="#">
-          Contacto &nbsp;<img style="width: 12px; height: 12px;" src="/assets/svg/external.svg">
-        </a></h1>
-      </li>
-      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-    </ul>
-
-    <section class="top-bar-section">
-      <ul class="left">
-        <li><a style="font-weight: bold;" data-reveal-id="contacto" href="#">Contacto y Cotizaciones</a></li>
-      </ul>
-      <ul class="right">
-        <li><a href="/#inicio">Nosotros</a></li>
-        <li><a href="/#productos">Productos</a></li>
-      </ul>
-    </section>
-  </nav>
-
-  <div class="green">
-
-    <div class="row" data-magellan-destination="inicio">
-      
-      <a id="#inicio" name="inicio"></a>
-
-      <div class="small-12 columns">
-        
-        <p><br>Somos una empresa  Mexicana dedicada a la venta e instalación de sistemas
-        de ahorro de energía, cubriendo el mercado de la zona centro del país. Los productos 
-        que comercializamos son: paneles fotovoltaicos, calentadores solares, calentadores 
-        instantáneos y luminaria de led tipo industrial, comercial y vía pública.</p>
-
-        <p>Nuestras oficinas están ubicadas en el Tlalnepantla,  Estado de México.</p>
-
-      </div>
-
-    </div>
-
-  </div>
-  	
-  <div class="row" data-magellan-destination="inicio">
-  	
+  <!-- Intro -->
+  <div class="row">
     <a id="#inicio" name="inicio"></a>
 
-    <div class="small-12 medium-8 columns">
-      <br>
-      <p>
-        <span class="vs">El Sol</span>, fuente de vida y origen de las demás formas de energía que 
-        el ser humano ha utilizado, a través de éste año arrojará sobre la tierra 4 mil veces más 
-        energía de la que vamos a consumir. En México, por nuestra privilegiada situación 
-        climatológica, se ve tremendamente favorecido, ya que la <span class="vs">energía solar
-        </span> que incide sobre el suelo mexicano es mucho mayor a la media mundial.
+    <div class="small-12 medium-8 medium-offset-1 columns">
+      <p> 
+        Somos una empresa  Mexicana dedicada a la venta e instalación de sistemas
+        de ahorro de energía, cubriendo el mercado de la zona centro del país. Los productos 
+        que comercializamos son: paneles fotovoltaicos, calentadores solares, calentadores 
+        instantáneos y luminaria de led tipo industrial, comercial y vía pública.
       </p>
       <p>
-        Sería poco racional de nuestra parte no aprovechar ésta esta energía gratuita e ilimitada por 
-        los medios que estén a nuestro alcance. Es simple: la <span class="vs">energía solar</span>, 
-        la mejor opción; la tecnología y calidad de <span class="vs">Voltajes Solares</span>, la 
-        mejor del mercado.
+        Estamos ubicados en Tlanepantla Estado de México.
       </p>
     </div>
-  
-    <div class="small-12 medium-4 columns">
-      <img class="block-image" src="assets/img/green-energy.jpg" alt="Ícono Solar">
+    <div class="small-12 medium-2 columns left">
+      <p>
+        <img class="block-image" src="assets/img/green-energy.jpg" alt="Ícono Solar">
+      </p>
     </div>
 
   </div>
 
-  <div class="green" data-magellan-destination="productos">
+  <!-- Accordion -->
+  <div class="green">
     <a id="#productos" name="productos"></a>      
     <div class="row">
       <div class="small-12 columns">
@@ -207,7 +161,7 @@
                 <div class="small-11 small-centered columns">
                   
                   <div class="row">
-                    <p style="text-align: justify">
+                    <p>
                       Funciona como un calentador de agua alterno a su calentador de gas tradicional
                       convirtiendo la energía solar en calorífica. Por medio del sistema del 
                       recolector de cobre, se obtiene una máxima transferencia de calor; dando por 
@@ -360,7 +314,7 @@
                 <div class="small-11 small-centered columns">
 
                   <h3>Alumbrado Público</h3>
-                  <hr>
+                  <hr class="section"r>
 
                   <div class="row">
                     <div class="small-12 columns">
@@ -431,7 +385,7 @@
 
                   <br>
                   <h3>Luminarias de Alumbrado Industrial y Comercial</h3>
-                  <hr>
+                  <hr class="section">
 
                     <div class="row">
                       <div class="small-12 columns">
@@ -483,6 +437,7 @@
     </div>
   </div>
 
+  <!-- Article -->
   <div class="row">
 
     <div class="small-12 columns">
@@ -500,12 +455,12 @@
   </div>
 
   <footer>
-      
+
+    <br>
+
     <div class="row">
 
-      <hr>
-
-      <div class="medium-3 columns">
+      <div class="small-12 medium-4 columns">
 
         <h4>Ventas:</h4>
 
@@ -518,7 +473,14 @@
 
       </div>
 
-      <div class="medium-3 columns">
+      <div class="small-12 medium-4 columns">
+        <h4>Ubicación:</h4>
+        <p>
+          Tlalnepantla, Estado de México.
+        </p>
+      </div>
+
+      <div class="small-12 medium-4 columns">
         <p>
           <form action="//formspree.io/sebastian0228@icloud.com" method="POST">
             <input required type="email" placeholder="nombre@ejemplo.com" name="_replyto"/>

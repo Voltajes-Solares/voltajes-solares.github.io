@@ -1,82 +1,62 @@
-/* line 4, ../scss/app.scss */
+/* line 7, ../scss/app.scss */
 body {
   color: #222222;
 }
-
-/* line 6, ../scss/app.scss */
-img.block-image {
-  display: block;
-  margin: auto;
+/* line 7, ../scss/app.scss */
+body p {
+  text-align: justify;
 }
 
-/* line 12, ../scss/app.scss */
+/* line 9, ../scss/app.scss */
+#banner {
+  margin-top: 52px;
+}
+/* line 11, ../scss/app.scss */
 #banner h1 {
   color: #FFFFFF;
   font-weight: bolder;
   text-align: center;
 }
-/* line 17, ../scss/app.scss */
+/* line 16, ../scss/app.scss */
 #banner .medium-up-banner {
   font-size: 100px;
 }
-/* line 18, ../scss/app.scss */
+/* line 17, ../scss/app.scss */
 #banner .small-only-banner {
   font-size: 50px;
 }
 
-/* line 21, ../scss/app.scss */
+/* line 20, ../scss/app.scss */
 .green {
   background: #5da423;
 }
-/* line 23, ../scss/app.scss */
+/* line 22, ../scss/app.scss */
 .green p {
   color: #FFFFFF;
 }
-/* line 24, ../scss/app.scss */
+/* line 23, ../scss/app.scss */
 .green h1, .green h2, .green h3, .green h4, .green h5, .green h6 {
   font-weight: bold;
   color: #FFFFFF;
 }
 
-/* line 35, ../scss/app.scss */
-span.vs {
-  color: #5da423;
-  font-weight: bold;
-}
-
-/* line 41, ../scss/app.scss */
+/* line 30, ../scss/app.scss */
 .accordion .genericon {
   float: right;
 }
-/* line 44, ../scss/app.scss */
+/* line 33, ../scss/app.scss */
 .accordion p, .accordion h1, .accordion h2, .accordion h3, .accordion h4, .accordion h5, .accordion h6 {
   color: #222222;
 }
 
-/* line 51, ../scss/app.scss */
-footer, .top-banner {
+/* line 38, ../scss/app.scss */
+footer {
   background-color: #5da423;
   color: #FFFFFF;
 }
-/* line 54, ../scss/app.scss */
-footer h1, footer h2, footer h3, footer h4, footer h5, footer h6, .top-banner h1, .top-banner h2, .top-banner h3, .top-banner h4, .top-banner h5, .top-banner h6 {
+/* line 41, ../scss/app.scss */
+footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
   color: #FFFFFF;
-}
-
-/* line 59, ../scss/app.scss */
-.top-banner {
-  margin-bottom: -4px;
-}
-/* line 60, ../scss/app.scss */
-.top-banner p {
-  float: right;
-  padding: 0.3rem;
-  margin: 0;
-}
-/* line 66, ../scss/app.scss */
-.top-banner hr {
-  padding-bottom: 0.3rem;
-  margin: 0;
 }
 
 /* line 364, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -310,536 +290,6 @@ select {
   display: block;
 }
 
-/* line 107, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-[class*="block-grid-"] {
-  display: block;
-  padding: 0;
-  margin: 0 -0.625rem;
-}
-/* line 172, ../bower_components/foundation/scss/foundation/components/_global.scss */
-[class*="block-grid-"]:before, [class*="block-grid-"]:after {
-  content: " ";
-  display: table;
-}
-/* line 173, ../bower_components/foundation/scss/foundation/components/_global.scss */
-[class*="block-grid-"]:after {
-  clear: both;
-}
-/* line 51, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-[class*="block-grid-"] > li {
-  display: block;
-  float: left;
-  height: auto;
-  padding: 0 0.625rem 1.25rem;
-}
-
-@media only screen {
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-1 > li {
-    list-style: none;
-    width: 100%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-1 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-1 > li:nth-of-type(1n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-2 > li {
-    list-style: none;
-    width: 50%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-2 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-2 > li:nth-of-type(2n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-3 > li {
-    list-style: none;
-    width: 33.33333%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-3 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-3 > li:nth-of-type(3n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-4 > li {
-    list-style: none;
-    width: 25%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-4 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-4 > li:nth-of-type(4n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-5 > li {
-    list-style: none;
-    width: 20%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-5 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-5 > li:nth-of-type(5n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-6 > li {
-    list-style: none;
-    width: 16.66667%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-6 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-6 > li:nth-of-type(6n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-7 > li {
-    list-style: none;
-    width: 14.28571%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-7 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-7 > li:nth-of-type(7n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-8 > li {
-    list-style: none;
-    width: 12.5%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-8 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-8 > li:nth-of-type(8n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-9 > li {
-    list-style: none;
-    width: 11.11111%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-9 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-9 > li:nth-of-type(9n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-10 > li {
-    list-style: none;
-    width: 10%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-10 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-10 > li:nth-of-type(10n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-11 > li {
-    list-style: none;
-    width: 9.09091%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-11 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-11 > li:nth-of-type(11n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-12 > li {
-    list-style: none;
-    width: 8.33333%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-12 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .small-block-grid-12 > li:nth-of-type(12n+1) {
-    clear: both;
-  }
-}
-@media only screen and (min-width: 40.0625em) {
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-1 > li {
-    list-style: none;
-    width: 100%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-1 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-1 > li:nth-of-type(1n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-2 > li {
-    list-style: none;
-    width: 50%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-2 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-2 > li:nth-of-type(2n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-3 > li {
-    list-style: none;
-    width: 33.33333%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-3 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-3 > li:nth-of-type(3n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-4 > li {
-    list-style: none;
-    width: 25%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-4 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-4 > li:nth-of-type(4n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-5 > li {
-    list-style: none;
-    width: 20%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-5 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-5 > li:nth-of-type(5n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-6 > li {
-    list-style: none;
-    width: 16.66667%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-6 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-6 > li:nth-of-type(6n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-7 > li {
-    list-style: none;
-    width: 14.28571%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-7 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-7 > li:nth-of-type(7n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-8 > li {
-    list-style: none;
-    width: 12.5%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-8 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-8 > li:nth-of-type(8n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-9 > li {
-    list-style: none;
-    width: 11.11111%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-9 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-9 > li:nth-of-type(9n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-10 > li {
-    list-style: none;
-    width: 10%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-10 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-10 > li:nth-of-type(10n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-11 > li {
-    list-style: none;
-    width: 9.09091%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-11 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-11 > li:nth-of-type(11n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-12 > li {
-    list-style: none;
-    width: 8.33333%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-12 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .medium-block-grid-12 > li:nth-of-type(12n+1) {
-    clear: both;
-  }
-}
-@media only screen and (min-width: 64.0625em) {
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-1 > li {
-    list-style: none;
-    width: 100%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-1 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-1 > li:nth-of-type(1n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-2 > li {
-    list-style: none;
-    width: 50%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-2 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-2 > li:nth-of-type(2n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-3 > li {
-    list-style: none;
-    width: 33.33333%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-3 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-3 > li:nth-of-type(3n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-4 > li {
-    list-style: none;
-    width: 25%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-4 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-4 > li:nth-of-type(4n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-5 > li {
-    list-style: none;
-    width: 20%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-5 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-5 > li:nth-of-type(5n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-6 > li {
-    list-style: none;
-    width: 16.66667%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-6 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-6 > li:nth-of-type(6n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-7 > li {
-    list-style: none;
-    width: 14.28571%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-7 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-7 > li:nth-of-type(7n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-8 > li {
-    list-style: none;
-    width: 12.5%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-8 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-8 > li:nth-of-type(8n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-9 > li {
-    list-style: none;
-    width: 11.11111%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-9 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-9 > li:nth-of-type(9n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-10 > li {
-    list-style: none;
-    width: 10%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-10 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-10 > li:nth-of-type(10n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-11 > li {
-    list-style: none;
-    width: 9.09091%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-11 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-11 > li:nth-of-type(11n+1) {
-    clear: both;
-  }
-
-  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-12 > li {
-    list-style: none;
-    width: 8.33333%;
-  }
-  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-12 > li:nth-of-type(1n) {
-    clear: none;
-  }
-  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-  .large-block-grid-12 > li:nth-of-type(12n+1) {
-    clear: both;
-  }
-}
 /* line 228, ../bower_components/foundation/scss/foundation/components/_grid.scss */
 .row {
   margin: 0 auto;
@@ -2339,26 +1789,6 @@ select {
     left: auto;
   }
 }
-/* line 18, ../bower_components/foundation/scss/foundation/components/_magellan.scss */
-[data-magellan-expedition], [data-magellan-expedition-clone] {
-  background: #FFFFFF;
-  min-width: 100%;
-  padding: 10px;
-  z-index: 50;
-}
-/* line 24, ../bower_components/foundation/scss/foundation/components/_magellan.scss */
-[data-magellan-expedition] .sub-nav, [data-magellan-expedition-clone] .sub-nav {
-  margin-bottom: 0;
-}
-/* line 26, ../bower_components/foundation/scss/foundation/components/_magellan.scss */
-[data-magellan-expedition] .sub-nav dd, [data-magellan-expedition-clone] .sub-nav dd {
-  margin-bottom: 0;
-}
-/* line 27, ../bower_components/foundation/scss/foundation/components/_magellan.scss */
-[data-magellan-expedition] .sub-nav a, [data-magellan-expedition-clone] .sub-nav a {
-  line-height: 1.8em;
-}
-
 /* line 169, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
 .reveal-modal-bg {
   background: #000000;
@@ -2518,279 +1948,6 @@ select {
   position: absolute;
   top: 0.625rem;
   right: 1.375rem;
-}
-
-/* line 123, ../bower_components/foundation/scss/foundation/components/_sub-nav.scss */
-.sub-nav {
-  display: block;
-  margin: -0.25rem 0 1.125rem;
-  overflow: hidden;
-  padding-top: 0.25rem;
-  width: auto;
-}
-/* line 67, ../bower_components/foundation/scss/foundation/components/_sub-nav.scss */
-.sub-nav dt {
-  text-transform: uppercase;
-}
-/* line 71, ../bower_components/foundation/scss/foundation/components/_sub-nav.scss */
-.sub-nav dt,
-.sub-nav dd,
-.sub-nav li {
-  color: #222222;
-  float: left;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.125rem;
-  font-weight: normal;
-  margin-left: 1rem;
-  margin-bottom: 0;
-}
-/* line 82, ../bower_components/foundation/scss/foundation/components/_sub-nav.scss */
-.sub-nav dt a,
-.sub-nav dd a,
-.sub-nav li a {
-  color: #222222;
-  padding: 0.1875rem 1rem;
-  text-decoration: none;
-}
-/* line 87, ../bower_components/foundation/scss/foundation/components/_sub-nav.scss */
-.sub-nav dt a:hover,
-.sub-nav dd a:hover,
-.sub-nav li a:hover {
-  color: #1a1a1a;
-}
-/* line 92, ../bower_components/foundation/scss/foundation/components/_sub-nav.scss */
-.sub-nav dt.active a,
-.sub-nav dd.active a,
-.sub-nav li.active a {
-  border-radius: 3px;
-  background: #5da423;
-  color: #FFFFFF;
-  cursor: default;
-  font-weight: normal;
-  padding: 0.1875rem 1rem;
-}
-/* line 100, ../bower_components/foundation/scss/foundation/components/_sub-nav.scss */
-.sub-nav dt.active a:hover,
-.sub-nav dd.active a:hover,
-.sub-nav li.active a:hover {
-  background: #508d1e;
-}
-
-/* line 215, ../bower_components/foundation/scss/foundation/components/_switches.scss */
-.switch {
-  border: none;
-  margin-bottom: 1.5rem;
-  outline: 0;
-  padding: 0;
-  position: relative;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-/* line 58, ../bower_components/foundation/scss/foundation/components/_switches.scss */
-.switch label {
-  background: #DDDDDD;
-  color: transparent;
-  cursor: pointer;
-  display: block;
-  margin-bottom: 1rem;
-  position: relative;
-  text-indent: 100%;
-  width: 4rem;
-  height: 2rem;
-  transition: left 0.15s ease-out;
-}
-/* line 74, ../bower_components/foundation/scss/foundation/components/_switches.scss */
-.switch input {
-  left: 10px;
-  opacity: 0;
-  padding: 0;
-  position: absolute;
-  top: 9px;
-}
-/* line 81, ../bower_components/foundation/scss/foundation/components/_switches.scss */
-.switch input + label {
-  margin-left: 0;
-  margin-right: 0;
-}
-/* line 88, ../bower_components/foundation/scss/foundation/components/_switches.scss */
-.switch label:after {
-  background: #FFFFFF;
-  content: "";
-  display: block;
-  height: 1.5rem;
-  left: .25rem;
-  position: absolute;
-  top: .25rem;
-  width: 1.5rem;
-  -webkit-transition: left 0.15s ease-out;
-  -moz-transition: left 0.15s ease-out;
-  -o-transition: translate3d(0, 0, 0);
-  transition: left 0.15s ease-out;
-  -webkit-transform: translate3d(0, 0, 0);
-  -moz-transform: translate3d(0, 0, 0);
-  -ms-transform: translate3d(0, 0, 0);
-  -o-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-/* line 110, ../bower_components/foundation/scss/foundation/components/_switches.scss */
-.switch input:checked + label {
-  background: #5da423;
-}
-/* line 114, ../bower_components/foundation/scss/foundation/components/_switches.scss */
-.switch input:checked + label:after {
-  left: 2.25rem;
-}
-/* line 126, ../bower_components/foundation/scss/foundation/components/_switches.scss */
-.switch label {
-  height: 2rem;
-  width: 4rem;
-}
-/* line 131, ../bower_components/foundation/scss/foundation/components/_switches.scss */
-.switch label:after {
-  height: 1.5rem;
-  width: 1.5rem;
-}
-/* line 136, ../bower_components/foundation/scss/foundation/components/_switches.scss */
-.switch input:checked + label:after {
-  left: 2.25rem;
-}
-/* line 157, ../bower_components/foundation/scss/foundation/components/_switches.scss */
-.switch label {
-  color: transparent;
-  background: #DDDDDD;
-}
-/* line 162, ../bower_components/foundation/scss/foundation/components/_switches.scss */
-.switch label:after {
-  background: #FFFFFF;
-}
-/* line 166, ../bower_components/foundation/scss/foundation/components/_switches.scss */
-.switch input:checked + label {
-  background: #5da423;
-}
-/* line 126, ../bower_components/foundation/scss/foundation/components/_switches.scss */
-.switch.large label {
-  height: 2.5rem;
-  width: 5rem;
-}
-/* line 131, ../bower_components/foundation/scss/foundation/components/_switches.scss */
-.switch.large label:after {
-  height: 2rem;
-  width: 2rem;
-}
-/* line 136, ../bower_components/foundation/scss/foundation/components/_switches.scss */
-.switch.large input:checked + label:after {
-  left: 2.75rem;
-}
-/* line 126, ../bower_components/foundation/scss/foundation/components/_switches.scss */
-.switch.small label {
-  height: 1.75rem;
-  width: 3.5rem;
-}
-/* line 131, ../bower_components/foundation/scss/foundation/components/_switches.scss */
-.switch.small label:after {
-  height: 1.25rem;
-  width: 1.25rem;
-}
-/* line 136, ../bower_components/foundation/scss/foundation/components/_switches.scss */
-.switch.small input:checked + label:after {
-  left: 2rem;
-}
-/* line 126, ../bower_components/foundation/scss/foundation/components/_switches.scss */
-.switch.tiny label {
-  height: 1.5rem;
-  width: 3rem;
-}
-/* line 131, ../bower_components/foundation/scss/foundation/components/_switches.scss */
-.switch.tiny label:after {
-  height: 1rem;
-  width: 1rem;
-}
-/* line 136, ../bower_components/foundation/scss/foundation/components/_switches.scss */
-.switch.tiny input:checked + label:after {
-  left: 1.75rem;
-}
-/* line 229, ../bower_components/foundation/scss/foundation/components/_switches.scss */
-.switch.radius label {
-  border-radius: 4px;
-}
-/* line 230, ../bower_components/foundation/scss/foundation/components/_switches.scss */
-.switch.radius label:after {
-  border-radius: 3px;
-}
-/* line 234, ../bower_components/foundation/scss/foundation/components/_switches.scss */
-.switch.round {
-  border-radius: 1000px;
-}
-/* line 235, ../bower_components/foundation/scss/foundation/components/_switches.scss */
-.switch.round label {
-  border-radius: 2rem;
-}
-/* line 236, ../bower_components/foundation/scss/foundation/components/_switches.scss */
-.switch.round label:after {
-  border-radius: 2rem;
-}
-
-/* line 131, ../bower_components/foundation/scss/foundation/components/_tables.scss */
-table {
-  background: #FFFFFF;
-  border: solid 1px #DDDDDD;
-  margin-bottom: 1.25rem;
-  table-layout: auto;
-}
-/* line 69, ../bower_components/foundation/scss/foundation/components/_tables.scss */
-table caption {
-  background: transparent;
-  color: #222222;
-  font-size: 1rem;
-  font-weight: bold;
-}
-/* line 78, ../bower_components/foundation/scss/foundation/components/_tables.scss */
-table thead {
-  background: #F5F5F5;
-}
-/* line 82, ../bower_components/foundation/scss/foundation/components/_tables.scss */
-table thead tr th,
-table thead tr td {
-  color: #222222;
-  font-size: 0.875rem;
-  font-weight: bold;
-  padding: 0.5rem 0.625rem 0.625rem;
-}
-/* line 92, ../bower_components/foundation/scss/foundation/components/_tables.scss */
-table tfoot {
-  background: #F5F5F5;
-}
-/* line 96, ../bower_components/foundation/scss/foundation/components/_tables.scss */
-table tfoot tr th,
-table tfoot tr td {
-  color: #222222;
-  font-size: 0.875rem;
-  font-weight: bold;
-  padding: 0.5rem 0.625rem 0.625rem;
-}
-/* line 107, ../bower_components/foundation/scss/foundation/components/_tables.scss */
-table tr th,
-table tr td {
-  color: #222222;
-  font-size: 0.875rem;
-  padding: 0.5625rem 0.625rem;
-  text-align: left;
-}
-/* line 115, ../bower_components/foundation/scss/foundation/components/_tables.scss */
-table tr.even, table tr.alt, table tr:nth-of-type(even) {
-  background: #F9F9F9;
-}
-/* line 120, ../bower_components/foundation/scss/foundation/components/_tables.scss */
-table thead tr th,
-table tfoot tr th,
-table tfoot tr td,
-table tbody tr th,
-table tbody tr td,
-table tr td {
-  display: table-cell;
-  line-height: 1.125rem;
 }
 
 /* line 213, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
@@ -5649,4 +4806,614 @@ th.hide-for-touch {
   .show-for-print {
     display: none !important;
   }
+}
+/* line 158, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group {
+  list-style: none;
+  margin: 0;
+  left: 0;
+}
+/* line 172, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.button-group:before, .button-group:after {
+  content: " ";
+  display: table;
+}
+/* line 173, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.button-group:after {
+  clear: both;
+}
+/* line 161, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.even-2 li {
+  display: inline-block;
+  margin: 0 -2px;
+  width: 50%;
+}
+/* line 39, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.even-2 li > button, .button-group.even-2 li .button {
+  border-left: 1px solid;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+/* line 45, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.even-2 li:first-child button, .button-group.even-2 li:first-child .button {
+  border-left: 0;
+}
+/* line 152, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.even-2 li button, .button-group.even-2 li .button {
+  width: 100%;
+}
+/* line 161, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.even-3 li {
+  display: inline-block;
+  margin: 0 -2px;
+  width: 33.33333%;
+}
+/* line 39, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.even-3 li > button, .button-group.even-3 li .button {
+  border-left: 1px solid;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+/* line 45, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.even-3 li:first-child button, .button-group.even-3 li:first-child .button {
+  border-left: 0;
+}
+/* line 152, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.even-3 li button, .button-group.even-3 li .button {
+  width: 100%;
+}
+/* line 161, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.even-4 li {
+  display: inline-block;
+  margin: 0 -2px;
+  width: 25%;
+}
+/* line 39, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.even-4 li > button, .button-group.even-4 li .button {
+  border-left: 1px solid;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+/* line 45, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.even-4 li:first-child button, .button-group.even-4 li:first-child .button {
+  border-left: 0;
+}
+/* line 152, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.even-4 li button, .button-group.even-4 li .button {
+  width: 100%;
+}
+/* line 161, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.even-5 li {
+  display: inline-block;
+  margin: 0 -2px;
+  width: 20%;
+}
+/* line 39, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.even-5 li > button, .button-group.even-5 li .button {
+  border-left: 1px solid;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+/* line 45, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.even-5 li:first-child button, .button-group.even-5 li:first-child .button {
+  border-left: 0;
+}
+/* line 152, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.even-5 li button, .button-group.even-5 li .button {
+  width: 100%;
+}
+/* line 161, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.even-6 li {
+  display: inline-block;
+  margin: 0 -2px;
+  width: 16.66667%;
+}
+/* line 39, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.even-6 li > button, .button-group.even-6 li .button {
+  border-left: 1px solid;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+/* line 45, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.even-6 li:first-child button, .button-group.even-6 li:first-child .button {
+  border-left: 0;
+}
+/* line 152, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.even-6 li button, .button-group.even-6 li .button {
+  width: 100%;
+}
+/* line 161, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.even-7 li {
+  display: inline-block;
+  margin: 0 -2px;
+  width: 14.28571%;
+}
+/* line 39, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.even-7 li > button, .button-group.even-7 li .button {
+  border-left: 1px solid;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+/* line 45, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.even-7 li:first-child button, .button-group.even-7 li:first-child .button {
+  border-left: 0;
+}
+/* line 152, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.even-7 li button, .button-group.even-7 li .button {
+  width: 100%;
+}
+/* line 161, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.even-8 li {
+  display: inline-block;
+  margin: 0 -2px;
+  width: 12.5%;
+}
+/* line 39, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.even-8 li > button, .button-group.even-8 li .button {
+  border-left: 1px solid;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+/* line 45, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.even-8 li:first-child button, .button-group.even-8 li:first-child .button {
+  border-left: 0;
+}
+/* line 152, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.even-8 li button, .button-group.even-8 li .button {
+  width: 100%;
+}
+/* line 164, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group > li {
+  display: inline-block;
+  margin: 0 -2px;
+}
+/* line 39, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group > li > button, .button-group > li .button {
+  border-left: 1px solid;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+/* line 45, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group > li:first-child button, .button-group > li:first-child .button {
+  border-left: 0;
+}
+/* line 167, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.stack > li {
+  display: block;
+  margin: 0;
+  float: none;
+}
+/* line 39, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.stack > li > button, .button-group.stack > li .button {
+  border-left: 1px solid;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+/* line 45, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.stack > li:first-child button, .button-group.stack > li:first-child .button {
+  border-left: 0;
+}
+/* line 69, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.stack > li > button, .button-group.stack > li .button {
+  border-color: rgba(255, 255, 255, 0.5);
+  border-left-width: 0;
+  border-top: 1px solid;
+  display: block;
+  margin: 0;
+}
+/* line 76, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.stack > li > button {
+  width: 100%;
+}
+/* line 81, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.stack > li:first-child button, .button-group.stack > li:first-child .button {
+  border-top: 0;
+}
+/* line 171, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.stack-for-small > li {
+  display: inline-block;
+  margin: 0 -2px;
+}
+/* line 39, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.stack-for-small > li > button, .button-group.stack-for-small > li .button {
+  border-left: 1px solid;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+/* line 45, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.stack-for-small > li:first-child button, .button-group.stack-for-small > li:first-child .button {
+  border-left: 0;
+}
+@media only screen and (max-width: 40em) {
+  /* line 171, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.stack-for-small > li {
+    display: block;
+    margin: 0;
+  }
+  /* line 39, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.stack-for-small > li > button, .button-group.stack-for-small > li .button {
+    border-left: 1px solid;
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+  /* line 45, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.stack-for-small > li:first-child button, .button-group.stack-for-small > li:first-child .button {
+    border-left: 0;
+  }
+  /* line 69, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.stack-for-small > li > button, .button-group.stack-for-small > li .button {
+    border-color: rgba(255, 255, 255, 0.5);
+    border-left-width: 0;
+    border-top: 1px solid;
+    display: block;
+    margin: 0;
+  }
+  /* line 76, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.stack-for-small > li > button {
+    width: 100%;
+  }
+  /* line 81, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.stack-for-small > li:first-child button, .button-group.stack-for-small > li:first-child .button {
+    border-top: 0;
+  }
+}
+/* line 179, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.radius > * {
+  display: inline-block;
+  margin: 0 -2px;
+}
+/* line 39, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.radius > * > button, .button-group.radius > * .button {
+  border-left: 1px solid;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+/* line 45, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.radius > *:first-child button, .button-group.radius > *:first-child .button {
+  border-left: 0;
+}
+/* line 121, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.radius > *,
+.button-group.radius > * > a,
+.button-group.radius > * > button,
+.button-group.radius > * > .button {
+  border-radius: 0;
+}
+/* line 125, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.radius > *:first-child, .button-group.radius > *:first-child > a, .button-group.radius > *:first-child > button, .button-group.radius > *:first-child > .button {
+  -webkit-border-bottom-left-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+/* line 136, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.radius > *:last-child, .button-group.radius > *:last-child > a, .button-group.radius > *:last-child > button, .button-group.radius > *:last-child > .button {
+  -webkit-border-bottom-right-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+/* line 180, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.radius.stack > * {
+  display: block;
+  margin: 0;
+}
+/* line 39, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.radius.stack > * > button, .button-group.radius.stack > * .button {
+  border-left: 1px solid;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+/* line 45, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.radius.stack > *:first-child button, .button-group.radius.stack > *:first-child .button {
+  border-left: 0;
+}
+/* line 69, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.radius.stack > * > button, .button-group.radius.stack > * .button {
+  border-color: rgba(255, 255, 255, 0.5);
+  border-left-width: 0;
+  border-top: 1px solid;
+  display: block;
+  margin: 0;
+}
+/* line 76, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.radius.stack > * > button {
+  width: 100%;
+}
+/* line 81, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.radius.stack > *:first-child button, .button-group.radius.stack > *:first-child .button {
+  border-top: 0;
+}
+/* line 121, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.radius.stack > *,
+.button-group.radius.stack > * > a,
+.button-group.radius.stack > * > button,
+.button-group.radius.stack > * > .button {
+  border-radius: 0;
+}
+/* line 125, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.radius.stack > *:first-child, .button-group.radius.stack > *:first-child > a, .button-group.radius.stack > *:first-child > button, .button-group.radius.stack > *:first-child > .button {
+  -webkit-top-left-radius: 3px;
+  -webkit-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+/* line 136, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.radius.stack > *:last-child, .button-group.radius.stack > *:last-child > a, .button-group.radius.stack > *:last-child > button, .button-group.radius.stack > *:last-child > .button {
+  -webkit-bottom-left-radius: 3px;
+  -webkit-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+@media only screen and (min-width: 40.0625em) {
+  /* line 181, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.radius.stack-for-small > * {
+    display: inline-block;
+    margin: 0 -2px;
+  }
+  /* line 39, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.radius.stack-for-small > * > button, .button-group.radius.stack-for-small > * .button {
+    border-left: 1px solid;
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+  /* line 45, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.radius.stack-for-small > *:first-child button, .button-group.radius.stack-for-small > *:first-child .button {
+    border-left: 0;
+  }
+  /* line 121, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.radius.stack-for-small > *,
+  .button-group.radius.stack-for-small > * > a,
+  .button-group.radius.stack-for-small > * > button,
+  .button-group.radius.stack-for-small > * > .button {
+    border-radius: 0;
+  }
+  /* line 125, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.radius.stack-for-small > *:first-child, .button-group.radius.stack-for-small > *:first-child > a, .button-group.radius.stack-for-small > *:first-child > button, .button-group.radius.stack-for-small > *:first-child > .button {
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+  }
+  /* line 136, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.radius.stack-for-small > *:last-child, .button-group.radius.stack-for-small > *:last-child > a, .button-group.radius.stack-for-small > *:last-child > button, .button-group.radius.stack-for-small > *:last-child > .button {
+    -webkit-border-bottom-right-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+  }
+}
+@media only screen and (max-width: 40em) {
+  /* line 181, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.radius.stack-for-small > * {
+    display: block;
+    margin: 0;
+  }
+  /* line 39, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.radius.stack-for-small > * > button, .button-group.radius.stack-for-small > * .button {
+    border-left: 1px solid;
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+  /* line 45, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.radius.stack-for-small > *:first-child button, .button-group.radius.stack-for-small > *:first-child .button {
+    border-left: 0;
+  }
+  /* line 69, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.radius.stack-for-small > * > button, .button-group.radius.stack-for-small > * .button {
+    border-color: rgba(255, 255, 255, 0.5);
+    border-left-width: 0;
+    border-top: 1px solid;
+    display: block;
+    margin: 0;
+  }
+  /* line 76, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.radius.stack-for-small > * > button {
+    width: 100%;
+  }
+  /* line 81, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.radius.stack-for-small > *:first-child button, .button-group.radius.stack-for-small > *:first-child .button {
+    border-top: 0;
+  }
+  /* line 121, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.radius.stack-for-small > *,
+  .button-group.radius.stack-for-small > * > a,
+  .button-group.radius.stack-for-small > * > button,
+  .button-group.radius.stack-for-small > * > .button {
+    border-radius: 0;
+  }
+  /* line 125, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.radius.stack-for-small > *:first-child, .button-group.radius.stack-for-small > *:first-child > a, .button-group.radius.stack-for-small > *:first-child > button, .button-group.radius.stack-for-small > *:first-child > .button {
+    -webkit-top-left-radius: 3px;
+    -webkit-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+  }
+  /* line 136, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.radius.stack-for-small > *:last-child, .button-group.radius.stack-for-small > *:last-child > a, .button-group.radius.stack-for-small > *:last-child > button, .button-group.radius.stack-for-small > *:last-child > .button {
+    -webkit-bottom-left-radius: 3px;
+    -webkit-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+}
+/* line 190, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.round > * {
+  display: inline-block;
+  margin: 0 -2px;
+}
+/* line 39, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.round > * > button, .button-group.round > * .button {
+  border-left: 1px solid;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+/* line 45, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.round > *:first-child button, .button-group.round > *:first-child .button {
+  border-left: 0;
+}
+/* line 121, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.round > *,
+.button-group.round > * > a,
+.button-group.round > * > button,
+.button-group.round > * > .button {
+  border-radius: 0;
+}
+/* line 125, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.round > *:first-child, .button-group.round > *:first-child > a, .button-group.round > *:first-child > button, .button-group.round > *:first-child > .button {
+  -webkit-border-bottom-left-radius: 1000px;
+  -webkit-border-top-left-radius: 1000px;
+  border-bottom-left-radius: 1000px;
+  border-top-left-radius: 1000px;
+}
+/* line 136, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.round > *:last-child, .button-group.round > *:last-child > a, .button-group.round > *:last-child > button, .button-group.round > *:last-child > .button {
+  -webkit-border-bottom-right-radius: 1000px;
+  -webkit-border-top-right-radius: 1000px;
+  border-bottom-right-radius: 1000px;
+  border-top-right-radius: 1000px;
+}
+/* line 191, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.round.stack > * {
+  display: block;
+  margin: 0;
+}
+/* line 39, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.round.stack > * > button, .button-group.round.stack > * .button {
+  border-left: 1px solid;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+/* line 45, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.round.stack > *:first-child button, .button-group.round.stack > *:first-child .button {
+  border-left: 0;
+}
+/* line 69, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.round.stack > * > button, .button-group.round.stack > * .button {
+  border-color: rgba(255, 255, 255, 0.5);
+  border-left-width: 0;
+  border-top: 1px solid;
+  display: block;
+  margin: 0;
+}
+/* line 76, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.round.stack > * > button {
+  width: 100%;
+}
+/* line 81, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.round.stack > *:first-child button, .button-group.round.stack > *:first-child .button {
+  border-top: 0;
+}
+/* line 121, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.round.stack > *,
+.button-group.round.stack > * > a,
+.button-group.round.stack > * > button,
+.button-group.round.stack > * > .button {
+  border-radius: 0;
+}
+/* line 125, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.round.stack > *:first-child, .button-group.round.stack > *:first-child > a, .button-group.round.stack > *:first-child > button, .button-group.round.stack > *:first-child > .button {
+  -webkit-top-left-radius: 1rem;
+  -webkit-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+/* line 136, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-group.round.stack > *:last-child, .button-group.round.stack > *:last-child > a, .button-group.round.stack > *:last-child > button, .button-group.round.stack > *:last-child > .button {
+  -webkit-bottom-left-radius: 1rem;
+  -webkit-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+@media only screen and (min-width: 40.0625em) {
+  /* line 192, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.round.stack-for-small > * {
+    display: inline-block;
+    margin: 0 -2px;
+  }
+  /* line 39, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.round.stack-for-small > * > button, .button-group.round.stack-for-small > * .button {
+    border-left: 1px solid;
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+  /* line 45, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.round.stack-for-small > *:first-child button, .button-group.round.stack-for-small > *:first-child .button {
+    border-left: 0;
+  }
+  /* line 121, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.round.stack-for-small > *,
+  .button-group.round.stack-for-small > * > a,
+  .button-group.round.stack-for-small > * > button,
+  .button-group.round.stack-for-small > * > .button {
+    border-radius: 0;
+  }
+  /* line 125, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.round.stack-for-small > *:first-child, .button-group.round.stack-for-small > *:first-child > a, .button-group.round.stack-for-small > *:first-child > button, .button-group.round.stack-for-small > *:first-child > .button {
+    -webkit-border-bottom-left-radius: 1000px;
+    -webkit-border-top-left-radius: 1000px;
+    border-bottom-left-radius: 1000px;
+    border-top-left-radius: 1000px;
+  }
+  /* line 136, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.round.stack-for-small > *:last-child, .button-group.round.stack-for-small > *:last-child > a, .button-group.round.stack-for-small > *:last-child > button, .button-group.round.stack-for-small > *:last-child > .button {
+    -webkit-border-bottom-right-radius: 1000px;
+    -webkit-border-top-right-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+    border-top-right-radius: 1000px;
+  }
+}
+@media only screen and (max-width: 40em) {
+  /* line 192, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.round.stack-for-small > * {
+    display: block;
+    margin: 0;
+  }
+  /* line 39, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.round.stack-for-small > * > button, .button-group.round.stack-for-small > * .button {
+    border-left: 1px solid;
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+  /* line 45, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.round.stack-for-small > *:first-child button, .button-group.round.stack-for-small > *:first-child .button {
+    border-left: 0;
+  }
+  /* line 69, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.round.stack-for-small > * > button, .button-group.round.stack-for-small > * .button {
+    border-color: rgba(255, 255, 255, 0.5);
+    border-left-width: 0;
+    border-top: 1px solid;
+    display: block;
+    margin: 0;
+  }
+  /* line 76, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.round.stack-for-small > * > button {
+    width: 100%;
+  }
+  /* line 81, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.round.stack-for-small > *:first-child button, .button-group.round.stack-for-small > *:first-child .button {
+    border-top: 0;
+  }
+  /* line 121, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.round.stack-for-small > *,
+  .button-group.round.stack-for-small > * > a,
+  .button-group.round.stack-for-small > * > button,
+  .button-group.round.stack-for-small > * > .button {
+    border-radius: 0;
+  }
+  /* line 125, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.round.stack-for-small > *:first-child, .button-group.round.stack-for-small > *:first-child > a, .button-group.round.stack-for-small > *:first-child > button, .button-group.round.stack-for-small > *:first-child > .button {
+    -webkit-top-left-radius: 1rem;
+    -webkit-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+  /* line 136, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+  .button-group.round.stack-for-small > *:last-child, .button-group.round.stack-for-small > *:last-child > a, .button-group.round.stack-for-small > *:last-child > button, .button-group.round.stack-for-small > *:last-child > .button {
+    -webkit-bottom-left-radius: 1rem;
+    -webkit-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+}
+
+/* line 172, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.button-bar:before, .button-bar:after {
+  content: " ";
+  display: table;
+}
+/* line 173, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.button-bar:after {
+  clear: both;
+}
+/* line 204, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-bar .button-group {
+  float: left;
+  margin-right: 0.625rem;
+}
+/* line 32, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
+.button-bar .button-group div {
+  overflow: hidden;
 }
